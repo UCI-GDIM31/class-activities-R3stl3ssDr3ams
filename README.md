@@ -1,7 +1,10 @@
 # in-class-activities
 ## Devlogs
 ### W1
-Hello World
+The player is a component of the Cat GameObject, so they will always be allowed to maintain control over its movements,
+while the camera is its own GameObject independent from the Cat; so if the Camera were to suddenly be removed from being a 
+child of the Cat GameObject, the player would still be able to move the cat, but the camera will remain fixed as it is no longer
+attached to the cat's model, and therefore player movement. 
 
 ## Open-Source Assets
 ### W1
